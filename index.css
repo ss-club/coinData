@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 50px;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    font-weight: 40;
+    padding-left: 20px;
+    position: relative;
+}
+
+.header img {
+    width: 16px;
+    height:16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 5px;
+}
+/* 中间部分 */
+.content {
+    height: 400px;  
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 10px;
+}
+
+.content .title {
+    font-size: x-large;
+    line-height: 40px;
+}
+
+/* 币种导航 */
+.content .nav {
+    height: 20px;
+    line-height: 20px;
+    font-size: small;
+    color: #929292;
+    margin-top: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.nav .coinclass {
+    float: left;
+}
+
+.nav .others {
+    float: right;      
+}
+
+.others div {
+    display: inline-block;
+    padding-left: 20px;
+    width: 180px;
+    text-align: right;
+}
+
+/* 币种信息 */
+.content .coindata {
+    height: 50px;
+    line-height: 50px;
+    font-size: large;
+    color: #000000;
+    border-bottom: 1px solid #f0f0f0;
+    
+}
+
+.coindata:hover {
+    cursor: pointer;
+    background-color:#f0f0f0;
+}
+
+.coindata .coinname {
+    float: left;
+}
+
+.coindata .coinothers {
+    float: right;
+}
+
+.coinothers div {
+    display: inline-block;
+    padding-left: 20px;
+    width: 180px;
+    text-align: right;
+}
+
+
+/* 底部 */
+.footer {
+    display: flex;
+    justify-content:space-around;
+    height: 100px;
+    background-color: black;
+    color: white;   
+    padding: 50px 0 0 50px;
+    font-size: large;
+}
+
+.footerName {
+    position: relative;
+}
+
+.footerImg {    
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+}
+
+.footerImg img{    
+    width: 20px;
+    height: 20px;    
+    padding-left:5px;
+}
+
+.footer div {
+    text-align: right;
+
+}
+
+.footer ul {
+    list-style: none;
+    font-size: small;
+    color: #909090;
+}
